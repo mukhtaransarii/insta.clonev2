@@ -1,0 +1,88 @@
+
+.feed{
+	 width: 100%;
+	 height: 100%
+	 background-color: red;
+	 position: absolute;
+	 top: 160px;
+}
+.feedLogo{
+	border-top: solid 0.5px lightgrey;
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+	 jbackground-color: green;
+	 height: 60px;
+	 padding: 0 10px;
+}
+.feedLogo img{
+	width: 32px;
+	border-radius: 50%;
+}
+.brd{
+	height: 38px;
+	width: 38px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:
+	radial-gradient(rgba(0,0,0,6.15) 60%, transparent 0), 
+	radial-gradient(white 65%, transparent 0),
+ linear-gradient(to top right,  #f9ce34, #ee2a7b ,#6228d7);
+}
+.brd a{
+	padding-top: 2.5px;
+}
+
+.profileUsername{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+.profileUsername a{
+	 font-size: 13px;
+	 text-decoration: none;
+}
+.feed .fa-solid{
+	font-size: 25px;
+	padding: 0 10px;
+}
+
+.feed #bbsFeed{
+	  width: 100%;
+}
+
+.likeLogo{
+	nbackground-color: yellow;
+	font-size: 25px;
+	position: relative;
+	padding: 0 10px;
+	margin: 5px 0;
+	
+}
+.likeLogo .fa-heart{
+	margin-right: 10px;
+}
+.fa-bookmark{
+	position: absolute;
+	right: 20px;
+}
+.likeNum{
+	padding: 0 20px;
+	margin-bottom : 500px;
+}
+.likeNum #ii{
+	font-weight: bold;
+}
+#hastag{
+	color: blue;
+}
+.likeLogo .fa-solid{
+	position: absolute;
+	color: red;
+	left: 10px;
+	top: 2px;
+	display: none;
+}

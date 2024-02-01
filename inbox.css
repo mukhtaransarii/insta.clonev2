@@ -1,0 +1,20 @@
+
+.inbox{
+	height: 100%;
+	width:100%;
+	background-color: white;
+	z-index: 999;
+	display: none;
+	position: relative;
+}
+.fa-arrow-left{
+	font-size: 25px;
+	position: absolute;
+	top: 25px;
+	left: 20px;
+}
+.inbox img{
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}

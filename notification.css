@@ -1,0 +1,24 @@
+
+.notify{
+	height: 100%;
+	width:100%;
+	background-color: white;
+	z-index: 999;
+	display: none;
+	position: relative;
+}
+.fa-arrow-left{
+	font-size: 25px;
+	position: absolute;
+	top: 25px;
+	left: 20px;
+	z-index: 9999;
+}
+
+.notify img{
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	top: 12px;
+}
