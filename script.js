@@ -2,14 +2,14 @@
 
 
 //STORY DP AND THEIR STATUS
-var arr = [ { dp : "bbs.png",story : "bbsStory.jpg"},
-            { dp : "srkdp.png",story : "srkstr.jpg"},
-            { dp : "ronaldp.png",story : "ronalstr.jpg"},
-            { dp : "jennadp.png",story : "jeenastr.jpg"},
-            { dp : "salmandp.png",story : "salmanstr.jpg"},
-            { dp : "viratdp.png",story : "viratstr.jpg"},
-            { dp : "tomdp.png",story : "tomstr.jpg"},
-            { dp : "andrewdp.png",story : "andrewstr.jpg"},
+var arr = [ { dp : "bbs.png",story : "bbsStory.jpg" ,us : "ii.bbs"},
+            { dp : "srkdp.png",story : "srkstr.jpg",us : "iamsrk"},
+            { dp : "ronaldp.png",story : "ronalstr.jpg", us :"cristiano"},
+            { dp : "jennadp.png",story : "jeenastr.jpg",us : "jeena.orteza"},
+            { dp : "salmandp.png",story : "salmanstr.jpg",us :"beingsalmankhan"},
+            { dp : "viratdp.png",story : "viratstr.jpg",us :"virat.kohli"},
+            { dp : "tomdp.png",story : "tomstr.jpg",us : "tomholland2013"},
+            { dp : "andrewdp.png",story : "andrewstr.jpg",us: "andrew.garfield"},
            
 ]
 // DECLARATION OF HTML TAG BUTTON DIV IN JAVASCRIPT.//FULL SCREEN VIEW OF STORY , NOTIFICATION, INBOX
@@ -24,7 +24,7 @@ var clutter = ""
  //INSERT HTML (.story ) DIV IN JAVASCRIPT.
 arr.forEach(function(elem,idx){
 	   clutter += ` <div class="story"> <img id="${idx}" src="${elem.dp}"> 
-	  <p>username</p></div>`
+	  <p id="${idx}">${elem.us}</p></div>`
 })
 
 //FULL SCREEN VIEW OF STORY
